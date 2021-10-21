@@ -1,0 +1,102 @@
+#carousel-soc-friends {
+    margin: 0 -16px 14px -16px;
+    padding: 0px;
+    height: 190px;
+    overflow: hidden;
+}
+
+#carousel-soc-friends  ul.carousel {
+    width: 40000px;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+#carousel-soc-friends  .group-user {
+    text-align: center;
+    width: 104px !important;
+    max-width: 104px;
+    margin: 15px 15px 0px 0;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+#carousel-soc-friends  .group-user-delete {
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    z-index: 10;
+    width: 23px;
+    height: 23px;
+    line-height: 25px;
+    border: 1px solid #39424C !important;
+    border-radius: 3px;
+    background: #fff;
+    text-align: center;
+}
+
+#carousel-soc-friends  .i-gu-delete {
+    margin: 0px;
+    width: 19px;
+    background: url(/img/skins/ll2015b/icons72.png?1) no-repeat -140px -560px;
+    display: inline-block;    
+    height: 20px;    
+    vertical-align: -5px;
+    opacity: 1;
+}
+
+#carousel-soc-friends  .similarity-big-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background: transparent center center no-repeat;
+    background-size: cover;
+}
+
+#carousel-soc-friends  .compare-back {
+    right: 17px;
+    bottom: -23px;
+    width: 40px;
+    height: 40px;
+    border-radius: 23px;
+    font-size: 18px;
+    line-height: 38px;
+    border-width: 3px;
+    position: absolute;
+    border: 2px solid #fff;
+    background: #b4b3b6;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+#carousel-soc-friends  .group-user-login {
+    font-size: 14px;
+    max-width: 100px;
+    text-align: center;
+    line-height: 14px;
+    margin-bottom: 15px;
+    display: block;
+    overflow: hidden;
+    height: 16px;
+}    
+
+#carousel-soc-friends .swiper-slide {
+    margin: 0px 0px 0px 12px;    
+}
+
+#carousel-soc-friends .swiper-button-prev, 
+#carousel-soc-friends .swiper-button-prev:hover {
+    top:65px !important;
+    left:-10px !important;
+    background: transparent url(/img/icons/icon_left.png) center center no-repeat;
+}
+
+#carousel-soc-friends .swiper-button-next,
+#carousel-soc-friends .swiper-button-next:hover {
+    top:65px !important;
+    right:-10px !important;
+    background: transparent url(/img/icons/icon_right.png) center center no-repeat;
+}

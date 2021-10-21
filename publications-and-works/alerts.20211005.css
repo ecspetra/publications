@@ -1,0 +1,47 @@
+.sysmsg-list {
+    overflow: hidden;
+}    
+
+.sysmsg-list .btn100 {
+    width: 100px;
+
+    background: #04A00C;
+    border: 0;
+    border-radius: 3px;
+    height: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 29px;
+    font-weight: bold;
+    vertical-align: middle;
+    font-family: 'PT Sans', Tahoma, Helvetica, sans-serif;
+}
+
+.sysmsg-list .btn100:hover {opacity: 0.8;}
+
+.sysmsg-list .text-input {
+    font-family: 'PT Sans', Tahoma, Helvetica, sans-serif;
+    vertical-align: middle;
+    border: 1px solid #C5C5C5;
+    background: #fff;
+    color: #222222;
+    border-radius: 3px;
+    padding: 0 10px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.sysmsg-list .sysmsg-close { 
+    display: block; 
+    width: 16px; 
+    height: 16px; 
+    float: right; 
+    margin: 1px -2px 0px 5px; 
+    background: transparent url(/img/icons/cross-gray.png) 0 0 no-repeat; 
+}
+
+.sysmsg-list .sysmsg-close:hover { 
+    background: transparent url(/img/icons/sprite56.png) -34px -17px no-repeat; 
+}

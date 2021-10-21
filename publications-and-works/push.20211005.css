@@ -1,0 +1,32 @@
+.push-confirm {
+    position:fixed;
+    left:20px;
+    top:20px;
+    background:#ffffff;
+    z-index:1010;
+    padding:15px;
+    border: 1px solid #d8d8d8;
+    border-radius: 16px;
+}
+
+.push-confirm .push-reject {
+    color: #3E99ED;
+    margin-right:20px;
+}
+
+.push-confirm .push-accept {
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    background: #3E99ED;
+    font: 600 18px/24px "Source Sans Pro", sans-serif;
+    padding: 5px 20px;
+}
+
+.push-confirm .push-buttons {
+    float:right;
+}
+
+.push-confirm .push-text {
+    padding: 10px 0px;
+}
